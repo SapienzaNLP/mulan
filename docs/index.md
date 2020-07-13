@@ -21,7 +21,7 @@
   
 <h3 style="vertical-align:middle;"> Reference </h3>
 
-<a href="https://www.ijcai.org/Proceedings/2020/0531.pdf" style='font-size: 13px' target='_blank'>MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation</a>
+<a href="https://www.ijcai.org/Proceedings/2020/0531.pdf" target='_blank'>MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation</a>
 ```
 @inproceedings{ijcai2020-531,
   title     = {MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation},
