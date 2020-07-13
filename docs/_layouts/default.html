@@ -3,71 +3,79 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <script src="https://kit.fontawesome.com/dc0c674743.js" crossorigin="anonymous"></script>
-<style>
-ul.download_buttons {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
-}
+    <style>
+      ul.download_buttons {
+        list-style:none;
+        height:40px;
+        padding:0;
+        background: #f4f4f4;
+        border-radius:5px;
+        border:1px solid #e0e0e0;
+        width:270px;
+      }
 
-.download_buttons li {
-  width:134px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
+      .download_buttons li {
+        width:134px;
+        float:left;
+        border-right:1px solid #e0e0e0;
+        height:40px;
+      }
 
-.download_buttons li:first-child a {
-  border-radius:5px 0 0 5px;
-}
+      .download_buttons li:first-child a {
+        border-radius:5px 0 0 5px;
+      }
 
-.download_buttons li:last-child a {
-  border-radius:0 5px 5px 0;
-}
+      .download_buttons li:last-child a {
+        border-radius:0 5px 5px 0;
+      }
 
-.download_buttons a {
-  line-height:1;
-  font-size:11px;
-  color:#676767;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
-}
+      .download_buttons a {
+        line-height:1;
+        font-size:11px;
+        color:#676767;
+        display:block;
+        text-align:center;
+        padding-top:6px;
+        height:34px;
+      }
 
-.download_buttons a:hover, .download_buttons a:focus {
-  color:#675C5C;
-  font-weight:bold;
-}
+      .download_buttons a:hover, .download_buttons a:focus {
+        color:#675C5C;
+        font-weight:bold;
+      }
 
-.download_buttons ul a:active {
-  background-color:#f0f0f0;
-}
+      .download_buttons ul a:active {
+        background-color:#f0f0f0;
+      }
 
-.download_buttons li + li {
-  border-right:none;
-  width:134px;
-}
+      .download_buttons li + li {
+        border-right:none;
+        width:134px;
+      }
 
-.download_buttons a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-  
-
-  
-</style>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+      .download_buttons a strong {
+        font-size:14px;
+        display:block;
+        color:#222;
+      }
+   </style>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .wrapper {
+        width: 1000px;
+      }
+      .wrapper header {
+        width: 30%;
+      }
+      .wrapper section {
+        width: 60%;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
