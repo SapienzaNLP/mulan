@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<corpus lang="it" source="SAMPLE_SOURCE_MBERT-SAMPLE_TARGET_MBERT">
+	<text id="sample:1">
+		<sentence id="sample:1.1">
+			<wf lemma="io" pos="PRON">Io</wf>
+			<wf lemma="avere" pos="VERB">ho</wf>
+			<wf lemma="un" pos="DET">un</wf>
+			<instance id="sample:1.1.0" lemma="cane" pos="NOUN">cane</instance>
+		</sentence>
+	</text>
+</corpus>

@@ -1,0 +1,1 @@
+d1.s1	I I PRON X	have have VERB X	a a DET X	dog dog NOUN bn:00015267n

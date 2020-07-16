@@ -1,0 +1,1 @@
+sample:1.1	Io io PRON X	ho avere VERB X	un un DET X	cane cane NOUN X

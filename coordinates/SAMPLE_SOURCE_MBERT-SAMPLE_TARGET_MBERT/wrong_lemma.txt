@@ -1,0 +1,1 @@
+0.44665	bn:00015267n	canis lupus familiaris,canis familiaris,cane	dog	io	d1.s1	sample:1.1

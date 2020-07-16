@@ -1,0 +1,8 @@
+{
+    "considered_sources": 1,
+    "n_target_sentences": 1,
+    "below_min_threshold": 0,
+    "wrong_lemma": 2.0,
+    "buckets_mean": 1,
+    "transfers": 1
+}
