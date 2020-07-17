@@ -15,20 +15,21 @@
       }
 
       .download_buttons li {
-        width:134px;
+/*         width:134px; */
         float:left;
         border-right:1px solid #e0e0e0;
+        border-radius:5px;
         height:40px;
       }
 
-      .download_buttons li:first-child a {
+/*       .download_buttons li:first-child a {
         border-radius:5px 0 0 5px;
       }
 
       .download_buttons li:last-child a {
         border-radius:0 5px 5px 0;
       }
-
+ */
       .download_buttons a {
         line-height:1;
         font-size:11px;
@@ -48,10 +49,10 @@
         background-color:#f0f0f0;
       }
 
-      .download_buttons li + li {
+/*       .download_buttons li + li {
         border-right:none;
         width:134px;
-      }
+      } */
 
       .download_buttons a strong {
         font-size:14px;
@@ -90,8 +91,8 @@
 
         {% if site.show_downloads %}
         <ul class="download_buttons">
-          <li><a href="TODO: DRIVE LINK">Download <strong>ZIP File (TODO)</strong></a></li>
-          <li><a href="https://github.com/SapienzaNLP/mulan" target="_blank">Code on <strong>GitHub</strong></a></li>
+<!--           <li><a href="TODO: DRIVE LINK">Download <strong>ZIP File (TODO)</strong></a></li> -->
+          <li><a href="https://github.com/SapienzaNLP/mulan" target="_blank">Code (and data!) on <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
       </header>
