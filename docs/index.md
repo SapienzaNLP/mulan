@@ -23,7 +23,7 @@
 
 <a href="https://www.ijcai.org/Proceedings/2020/0531.pdf" target='_blank'>MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation</a>
 ```
-@inproceedings{ijcai2020-531,
+@inproceedings{barba-et-al-2020-mulan,
   title     = {MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation},
   author    = {Barba, Edoardo and Procopio, Luigi and Campolungo, Niccolò and Pasini, Tommaso and Navigli, Roberto},
   booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
