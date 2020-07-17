@@ -4,7 +4,7 @@ MuLaN ([Multilingual Label propagatioN](https://www.ijcai.org/Proceedings/2020/0
 If you find either our code or our release datasets useful in your work, please cite us with:
 ```
 @inproceedings{ijcai2020-531,
-  title     = {MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation},
+  title     = {Mu{L}a{N}: Multilingual Label propagatio{N} for Word Sense Disambiguation},
   author    = {Barba, Edoardo and Procopio, Luigi and Campolungo, Niccolò and Pasini, Tommaso and Navigli, Roberto},
   booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
                Artificial Intelligence, {IJCAI-20}},
