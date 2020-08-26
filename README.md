@@ -47,7 +47,7 @@ We also release our transferring code, thus allowing to generate new tagged corp
         └── WNGT
     ```
    That is, you have to create the *bn2wn.txt* file. In order to achieve this, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets): the section *BabelNet To WordNet mapping* produces exactly this file. The file should look the following:
-    ``` bash
+    ```
     <babelnet-id> <\t> <first-associated-wordnet-id> <\t> <second-associated-wordnet-id> ...
     ```
 4. Setup the vocabs folder so that it looks like the following:
