@@ -38,7 +38,7 @@ We also release our transferring code, thus allowing to generate new tagged corp
 3. Setup data folder so that it looks like the following:
     ``` bash
     $ tree -L 2 ~/mulan/data
-    ├── bn-raw_wn-sa_wn.txt
+    ├── bn2wn.txt
     ├── mapped-datasets
     │   ├── sample-source
     │   └── sample-target
@@ -46,7 +46,10 @@ We also release our transferring code, thus allowing to generate new tagged corp
         ├── SemCor
         └── WNGT
     ```
-   That is, you have to create the *bn-raw_wn-sa_wn.txt* file. In order to achieve this, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets)
+   That is, you have to create the *bn2wn.txt* file. In order to achieve this, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets): the section *BabelNet To WordNet mapping* produces exactly this file. The file should look the following:
+    ``` bash
+    <babelnet-id> <\t> <first-associated-wordnet-id> <\t> <second-associated-wordnet-id> ...
+    ```
 4. Setup the vocabs folder so that it looks like the following:
     ``` bash
     $ tree -L 1 ~/mulan/vocabs
@@ -54,7 +57,10 @@ We also release our transferring code, thus allowing to generate new tagged corp
     ├── lemma2synsets.<desired-languge>.txt
     └── ...
     ```
-   Once again, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets) in order to generate the mappings from lemmas to the possible BabelNet synsets in the desired languages.
+   Once again, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets) in order to generate the mappings from lemmas to the possible BabelNet synsets in the desired languages (section *Build the Inventory*): take the file *inventory.<language>.withgold.txt* (we suggest sticking to the WordNet subgraph and using the *-s wn* option for most cases), rename it to *lemma2synsets.<desired-languge>.txt* and place it in the *vocabs/* folder. This file should look like the following:
+    ``` bash
+    <lemma>#<pos> <\t> <first-associated-babelnet-id> <\t> <second-associated-babelnet-id> ...
+    ```
 
 ### Projection Flow
 All the transfering code is organized using a "gun firing" analogy. This metaphor was not meant to stick around; rather, 
