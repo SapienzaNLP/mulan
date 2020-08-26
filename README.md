@@ -57,7 +57,7 @@ We also release our transferring code, thus allowing to generate new tagged corp
     ├── lemma2synsets.<desired-languge>.txt
     └── ...
     ```
-   Once again, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets) in order to generate the mappings from lemmas to the possible BabelNet synsets in the desired languages (section *Build the Inventory*): take the file *inventory.<language>.withgold.txt* (we suggest sticking to the WordNet subgraph and using the *-s wn* option for most cases), rename it to *lemma2synsets.<desired-languge>.txt* and place it in the *vocabs/* folder. This file should look like the following:
+   Once again, you may use the code and instructions in [SapienzaNLP/mwsd-datasets](https://github.com/SapienzaNLP/mwsd-datasets) in order to generate the mappings from lemmas to the possible BabelNet synsets in the desired languages (section *Build the Inventory*): take the file *inventory.\<language\>.withgold.txt* (we suggest sticking to the WordNet subgraph and using the *-s wn* option for most cases), rename it to *lemma2synsets.\<desired-languge\>.txt* and place it in the *vocabs/* folder. This file should look like the following:
     ``` bash
     <lemma>#<pos> <\t> <first-associated-babelnet-id> <\t> <second-associated-babelnet-id> ...
     ```
