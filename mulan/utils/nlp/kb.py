@@ -17,12 +17,13 @@ _wn2bn = {}
 _bn2wn = {}
 
 
-with open('data/bn-raw_wn-sa_wn.txt') as f:
+with open('data/bn2wn.txt') as f:
     for line in f:
         line = line.strip()
-        parts = line.split('\t')
-        _bn2wn[parts[0]] = parts[2]
-        _wn2bn[parts[2]] = parts[0]
+        bn_id, *wn_ids = line.split('\t')
+        _bn2wn[bn_id] = wn_ids[0]  # todo currently considering only last
+        for wn_id in wn_ids:
+            _wn2bn[wn_id] = bn_id
 
 
 def wn_id2bn_id(wn_id):
