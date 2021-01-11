@@ -148,7 +148,7 @@ Running:
 ``` bash
 bash pipeline.sh it SAMPLE_SOURCE_MBERT SAMPLE_TARGET_MBERT
 ```
-will project the sense of *dog* in *I have a dog* towards *cane* towards *cane* in *Io ho un cane*, producing:
+will project the sense of *dog* in *I have a dog* towards *cane* in *Io ho un cane*, producing:
 * **intermediate files** in *vectorization* and *coordinates*
 
 * **final result** in *transfer*
